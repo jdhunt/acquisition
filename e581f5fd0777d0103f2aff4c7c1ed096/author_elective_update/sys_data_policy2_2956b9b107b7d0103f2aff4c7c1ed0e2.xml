@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_329792_acquisiti_acquisition</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Sets the Specific vendor or product? field to mandatory</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 12:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2956b9b107b7d0103f2aff4c7c1ed0e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Specific vendor or product? field to mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_data_policy2_2956b9b107b7d0103f2aff4c7c1ed0e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 12:11:27</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>sys_data_policy2_2956b9b107b7d0103f2aff4c7c1ed0e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_329792_acquisiti_acquisition</model_table><reverse_if_false>true</reverse_if_false><short_description>Sets the Specific vendor or product? field to mandatory</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-12 12:11:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2956b9b107b7d0103f2aff4c7c1ed0e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sets the Specific vendor or product? field to mandatory</sys_name><sys_overrides/><sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package><sys_policy/><sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope><sys_update_name>sys_data_policy2_2956b9b107b7d0103f2aff4c7c1ed0e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-12 12:11:27</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1280755351</payload_hash>
+        <record_name>Sets the Specific vendor or product? field to mandatory</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 12:11:27</sys_created_on>
+        <sys_id>e956b9b107b7d0103f2aff4c7c1ed0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751cb8feaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 12:11:27</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>e156b9b1c6b7d010010ee117f3421be4</update_guid>
+        <update_guid_history>e156b9b1c6b7d010010ee117f3421be4:1280755351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 23:33:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>420b734534194a57b1cf87d4c1e61c11</sys_id>
+        <sys_metadata>2956b9b107b7d0103f2aff4c7c1ed0e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Specific vendor or product? field to mandatory</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent display_value="Acquisition">0d56b9b107b7d0103f2aff4c7c1ed05e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_2956b9b107b7d0103f2aff4c7c1ed0e2</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_2956b9b107b7d0103f2aff4c7c1ed0e2">e956b9b107b7d0103f2aff4c7c1ed0e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 23:33:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

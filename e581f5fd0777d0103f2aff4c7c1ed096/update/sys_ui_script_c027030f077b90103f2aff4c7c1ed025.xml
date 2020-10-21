@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description> Client-side logic for Angular App.</description>
+        <global>false</global>
+        <name>x_329792_acquisiti.angular_app_client_lo</name>
+        <script><![CDATA[angular.module('angularapp',[]);
+angular.module('angularapp').controller('AngularAppCtrl', function($scope){
+	
+	$scope.myVar = '';
+	$scope.i = 0;
+	$scope.counter = 0;
+    $scope.change = function() {
+        $scope.counter++;
+    };
+	$scope.question1 = null;
+	$scope.question2 = null;
+	$scope.question3 = null;
+	
+	$scope.showQuestion2 = false;
+	$scope.showQuestion3 = false;
+	
+	$scope.showGuidance1 = false;
+	$scope.showGuidance2 = false;
+	$scope.showGuidance3 = false;
+	$scope.showGuidance4 = false;
+	
+    $scope.changeQuestion1 = function() {
+        $scope.counter++;
+		if ($scope.question1 == "a1-yes") {
+			$scope.hideGuidance();
+			$scope.showQuestion2 = true;
+//			alert("q1 yes was selected");
+		} else if ($scope.question1 == "a1-no") {
+			$scope.setGuidance1();
+//			alert("q1 no was selected");
+		}
+    };
+	
+    $scope.changeQuestion2 = function() {
+        $scope.counter++;
+		if ($scope.question2 == "a2-yes") {
+			$scope.hideGuidance();
+			$scope.showQuestion3 = true;
+//			alert("q2 yes was selected");
+		} else if ($scope.question2 == "a2-no") {
+			$scope.setGuidance2();
+			$scope.showQuestion3 = false;
+//			alert("q1 no was selected");
+		}
+    };
+	
+    $scope.changeQuestion3 = function() {
+        $scope.counter++;
+		if ($scope.question3 == "a3-idiq") {
+			$scope.setGuidance3();
+		} else if ($scope.question3 == "a3-bpa") {
+			$scope.setGuidance4();
+		}
+    };
+	
+	$scope.hideGuidance = function() {
+		$scope.showGuidance1 = false;
+		$scope.showGuidance2 = false;
+		$scope.showGuidance3 = false;
+		$scope.showGuidance4 = false;	
+    };
+	
+	$scope.setGuidance1 = function() {
+		$scope.question2 = null;
+		$scope.question3 = null;
+		
+		$scope.showQuestion2 = false;
+		$scope.showQuestion3 = false;
+		
+		$scope.showGuidance1 = true;
+		$scope.showGuidance2 = false;
+		$scope.showGuidance3 = false;
+		$scope.showGuidance4 = false;	
+    };
+	
+	$scope.setGuidance2 = function() {
+		$scope.question3 = null;
+		
+		$scope.showGuidance1 = false;
+		$scope.showGuidance2 = true;
+		$scope.showGuidance3 = false;
+		$scope.showGuidance4 = false;	
+    };
+
+	$scope.setGuidance3 = function() {
+		$scope.showGuidance1 = false;
+		$scope.showGuidance2 = false;
+		$scope.showGuidance3 = true;
+		$scope.showGuidance4 = false;	
+    };
+
+	$scope.setGuidance4 = function() {
+		$scope.showGuidance1 = false;
+		$scope.showGuidance2 = false;
+		$scope.showGuidance3 = false;
+		$scope.showGuidance4 = true;	
+    };
+
+	
+	
+//	$scope.clearTxt = function(){
+//		$scope.myVar = '';
+//		$scope.i++;
+//		alert("The myVar was cleared " + $scope.i + " times by " + g_user.userName + ".");
+//	};
+	
+});
+]]></script>
+        <script_name>angular_app_client_logic</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 15:24:35</sys_created_on>
+        <sys_id>c027030f077b90103f2aff4c7c1ed025</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>x_329792_acquisiti.angular_app_client_lo</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_script_c027030f077b90103f2aff4c7c1ed025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 12:57:27</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

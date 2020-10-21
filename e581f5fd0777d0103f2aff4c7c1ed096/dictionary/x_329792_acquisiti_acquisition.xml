@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="use_document_viewer=false" label="Acquisition" max_length="40" name="x_329792_acquisiti_acquisition" sizeclass="1" type="collection">
+        <element choice="1" label="GWAC Exists?" max_length="40" name="gwac_exists" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IDIQ or GSA BPA?" max_length="40" name="idiq_or_gsa_bpa" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GSA BPA" value="gsa_bpa"/>
+                <element inactive_on_update="false" label="IDIQ" value="idiq"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Specific Vendor or Product?" mandatory="true" max_length="40" name="specific_vendor_or_product" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+    </element>
+</database>

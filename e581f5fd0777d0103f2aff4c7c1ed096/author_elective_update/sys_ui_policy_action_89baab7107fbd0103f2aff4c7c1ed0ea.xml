@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>gwac_exists</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 20:40:44</sys_created_on>
+        <sys_id>89baab7107fbd0103f2aff4c7c1ed0ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>gwac_exists</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_policy_action_89baab7107fbd0103f2aff4c7c1ed0ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 21:04:19</sys_updated_on>
+        <table>x_329792_acquisiti_acquisition</table>
+        <ui_policy display_value="Specific Vendor or Product">f2566bbd07bbd0103f2aff4c7c1ed058</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>sys_ui_policy_action_89baab7107fbd0103f2aff4c7c1ed0ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>gwac_exists</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-12 20:40:44</sys_created_on><sys_id>89baab7107fbd0103f2aff4c7c1ed0ea</sys_id><sys_mod_count>2</sys_mod_count><sys_name>gwac_exists</sys_name><sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package><sys_policy/><sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope><sys_update_name>sys_ui_policy_action_89baab7107fbd0103f2aff4c7c1ed0ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-12 21:04:19</sys_updated_on><table>x_329792_acquisiti_acquisition</table><ui_policy display_value="Specific Vendor or Product">f2566bbd07bbd0103f2aff4c7c1ed058</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-223972557</payload_hash>
+        <record_name>gwac_exists</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 21:04:19</sys_created_on>
+        <sys_id>1f403f7507fbd0103f2aff4c7c1ed03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751ea0da090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 21:04:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>97403f757ffbd010ca571034db9d013c</update_guid>
+        <update_guid_history>97403f757ffbd010ca571034db9d013c:-223972557,9acf6775f3fbd010a111a408c53a5c17:-886559096,b1eaab71d1fbd0107ed4bb123eb36cf7:-310672265</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 21:08:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>955cd8e569c34198bb4d094b1c5b5f10</sys_id>
+        <sys_metadata>89baab7107fbd0103f2aff4c7c1ed0ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gwac_exists</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent display_value="">f2566bbd07bbd0103f2aff4c7c1ed058</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_89baab7107fbd0103f2aff4c7c1ed0ea</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_89baab7107fbd0103f2aff4c7c1ed0ea">1f403f7507fbd0103f2aff4c7c1ed03c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 21:08:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

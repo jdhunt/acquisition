@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="specific_vendor_or_product" table="x_329792_acquisiti_acquisition" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>specific_vendor_or_product</element>
+            <name>x_329792_acquisiti_acquisition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 17:29:04</sys_created_on>
+            <sys_id>c60fb235077bd0103f2aff4c7c1ed078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>specific_vendor_or_product</sys_name>
+            <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+            <sys_update_name>sys_choice_x_329792_acquisiti_acquisition_specific_vendor_or_product</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 17:29:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specific_vendor_or_product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_329792_acquisiti_acquisition</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 17:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>632ffaf1077bd0103f2aff4c7c1ed010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 17:29:56</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specific_vendor_or_product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_329792_acquisiti_acquisition</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 17:29:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abfe7235077bd0103f2aff4c7c1ed0f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 17:29:04</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

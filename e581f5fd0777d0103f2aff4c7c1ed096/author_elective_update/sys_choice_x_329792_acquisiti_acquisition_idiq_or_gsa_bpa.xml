@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="idiq_or_gsa_bpa" table="x_329792_acquisiti_acquisition" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>idiq_or_gsa_bpa</element>
+            <name>x_329792_acquisiti_acquisition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:11:26</sys_created_on>
+            <sys_id>a956b9b107b7d0103f2aff4c7c1ed0d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>idiq_or_gsa_bpa</sys_name>
+            <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+            <sys_update_name>sys_choice_x_329792_acquisiti_acquisition_idiq_or_gsa_bpa</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 12:11:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>idiq_or_gsa_bpa</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GSA BPA</label>
+            <language>en</language>
+            <name>x_329792_acquisiti_acquisition</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:11:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e956b9b107b7d0103f2aff4c7c1ed0d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 12:11:26</sys_updated_on>
+            <value>gsa_bpa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>idiq_or_gsa_bpa</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IDIQ</label>
+            <language>en</language>
+            <name>x_329792_acquisiti_acquisition</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:11:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d56b9b107b7d0103f2aff4c7c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 12:11:26</sys_updated_on>
+            <value>idiq</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

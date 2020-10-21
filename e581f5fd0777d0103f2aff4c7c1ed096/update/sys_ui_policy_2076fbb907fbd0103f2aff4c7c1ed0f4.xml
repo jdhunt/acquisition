@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_329792_acquisiti_acquisition">specific_vendor_or_product=Yes^EQ<item display_value="Yes" endquery="false" field="specific_vendor_or_product" goto="false" newquery="false" operator="=" or="false" value="Yes"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    // alert('section names:' + g_form.getSectionNames());
+
+    g_form.clearValue('gwac_exists');
+    g_form.clearValue('idiq_or_gsa_bpa');
+    g_form.setMandatory('gwac_exists', false);
+    g_form.setMandatory('idiq_or_gsa_bpa', false);
+    g_form.setVisible('gwac_exists', false);
+    g_form.setVisible('idiq_or_gsa_bpa', false);
+	
+
+	g_form.setSectionDisplay('gwac', false);
+	g_form.setSectionDisplay('idiq_orgsabpa', false);
+	
+    g_form.setSectionDisplay('competition_process', false);
+    g_form.setSectionDisplay('sole_sourcejaprocess', false);
+    g_form.setSectionDisplay('limited_sourcesprocess', false);
+    g_form.setSectionDisplay('exception_tofairopportunityprocess', false);
+	
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    // alert('specific vendor or product:' + g_form.getValue('specific_vendor_or_product'));
+
+    g_form.setMandatory('gwac_exists', true);
+    g_form.setVisible('gwac_exists', true);
+    g_form.setVisible('idiq_or_gsa_bpa', false);
+
+    g_form.setSectionDisplay('competition_process', false);
+    g_form.setSectionDisplay('sole_sourcejaprocess', false);
+    g_form.setSectionDisplay('limited_sourcesprocess', false);
+    g_form.setSectionDisplay('exception_tofairopportunityprocess', false);
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Specific Vendor or Product - Yes</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 21:49:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2076fbb907fbd0103f2aff4c7c1ed0f4</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Specific Vendor or Product - Yes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_policy_2076fbb907fbd0103f2aff4c7c1ed0f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-20 11:58:52</sys_updated_on>
+        <table>x_329792_acquisiti_acquisition</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

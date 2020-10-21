@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>UI Page for acuisition process</description>
+        <direct>false</direct>
+        <endpoint>x_329792_acquisiti_acquistion_process.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com//bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"></link>
+	<script src="x_329792_acquisiti.angular_app_client_lo.jsdbx"></script>
+	<style type="text/css">
+		.animate-show-hide.ng-hide {
+		  opacity: 0;
+		}
+
+		.animate-show-hide.ng-hide-add,
+		.animate-show-hide.ng-hide-remove {
+		  transition: all linear 0.5s;
+		}
+
+		.question-element {
+		  border: 1px solid black;
+		  opacity: 1;
+		  padding: 10px;
+		}
+		
+		.guidance-element {
+		  border: 2px solid blue;
+		  opacity: 1;
+		  padding: 10px;
+		}
+	</style>
+<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+	<br/>
+	<div class="question-element animate-show-hide">
+		<label for="question1">Question 1: Does this requirement require the award be made for a specific brand-name product or to a specific vendor?</label><p/>
+		<select name="question1" id="question1" ng-change="changeQuestion1()" ng-model="question1">
+		  <option value="">---Please select---</option> <!-- not selected / blank option -->
+		  <option value="a1-yes">Yes. This award requires a specific brand-name product or vendor.</option>
+		  <option value="a1-no">No. There are multiple vendors and/or products that can fulfil this requirement.</option>
+		</select>
+	</div>
+	<br/>
+	<div class="question-element animate-show-hide" ng-show="showQuestion2">
+		<label for="question2">Question 2: Is the requirement available under an existing Government-Wide Acquisition Contract (GWAC) such as an Enterprise License Agreement (ELA), Blanket Purchase Agreement (BPA), or Indefinite Delivery Indefinite Quantity (IDIQ) contract?  Examples include GSA's OASIS IDIQ, NASA SEWP, Army CHESS, …</label><p/>
+		<select name="question2" id="question2" ng-change="changeQuestion2()" ng-model="question2">
+		  <option value="">---Please select---</option> <!-- not selected / blank option -->
+		  <option value="a2-yes">Yes. This solution can be procured through an available GWAC.</option>
+		  <option value="a2-no">No.  This solution is not available through a GWAC, and must be procured through the Open Market.</option>
+		</select>
+	</div>
+	<br/>
+	<div class="question-element animate-show-hide" ng-show="showQuestion3">
+		<label for="question3">Question 3: Is the available GWAC an Indefinite Delivery Indefinite Quantity (IDIQ) contractor or a Blanket Purchase Agreement (BPA)?</label><p/>
+		<select name="question3" id="question3" ng-change="changeQuestion3()" ng-model="question3">
+		  <option value="">---Please select---</option> <!-- not selected / blank option -->
+		  <option value="a3-idiq">The solution is available via an Indefinite Delivery Indefinite Quantity (IDIQ).</option>
+		  <option value="a3-bpa">The solution is available via a Blanket Purchase Agreement (BPA).</option>
+		</select>
+	</div>
+	<tt>counter = {{counter}}</tt>
+	<br/>
+	<br/>
+	<div class="guidance-element animate-show-hide" ng-show="showGuidance1">
+		Initiate a new "Competition" decision tree.
+	</div>
+	
+	<div class="guidance-element animate-show-hide" ng-show="showGuidance2">
+		The program office must initiate the &#160;<i>Sole Source Justification and Approval</i>&#160; process in accordance with FAR 6.302-1.  See attached policy, template and sample
+	</div>
+	
+	<div class="guidance-element animate-show-hide" ng-show="showGuidance3">
+		The program office must initiate a &#160;<i>Limited Sources Justification</i>&#160; in accordance with FAR 8.405-6. Following are links to a policy, template and sample:
+		
+<p><a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2" title="Click Here to Download the LSJ Policy">Click Here to Download the LSJ Policy</a></p>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0" title="Click Here to Download the LSJ Template">Click Here to Download the LSJ Template</a></p>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1" title="Click Here to Download the LSJ Example">Click Here to Download the LSJ Example</a></p>
+
+	</div>
+	
+	<div class="guidance-element animate-show-hide" ng-show="showGuidance4">
+		The program office must initiate the &#160;<i>Exception to Fair Opportunity</i>&#160; process in accordance with FAR 16.505.  See attached policy, template and sample.
+	</div>
+
+</div>
+
+</j:jelly>]]></html>
+        <name>acquistion_process</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-20 12:34:56</sys_created_on>
+        <sys_id>94080354078c60103f2aff4c7c1ed0ac</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>acquistion_process</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_page_94080354078c60103f2aff4c7c1ed0ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 18:04:27</sys_updated_on>
+    </sys_ui_page>
+</record_update>

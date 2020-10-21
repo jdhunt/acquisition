@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3cfafd7507b7d0103f2aff4c7c1ed01e" sys_domain="global" table="x_329792_acquisiti_acquisition" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:31:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dfafd7507b7d0103f2aff4c7c1ed021</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">bc08f9b107b7d0103f2aff4c7c1ed05c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 23:44:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-20 11:45:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f1dba1c074c60103f2aff4c7c1ed00e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Specific Vendor or Product" display_value="Specific Vendor or Product" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">cf1dba1c074c60103f2aff4c7c1ed00a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-20 11:39:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dbbb6d8074c60103f2aff4c7c1ed04d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="GWAC" display_value="GWAC" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">69bbb6d8074c60103f2aff4c7c1ed048</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-20 11:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75bbb6d8074c60103f2aff4c7c1ed090</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="IDIQ or GSA BPA" display_value="IDIQ or GSA BPA" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">a1bbb6d8074c60103f2aff4c7c1ed04a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:31:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dfafd7507b7d0103f2aff4c7c1ed022</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Competition Process" display_value="Competition Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">78fabd7507b7d0103f2aff4c7c1ed094</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb4ef13907b7d0103f2aff4c7c1ed0ae</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Sole Source J&amp;A Process" display_value="Sole Source J&amp;A Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">ab4ef13907b7d0103f2aff4c7c1ed0a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>774ef13907b7d0103f2aff4c7c1ed0b2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Limited Sources Process" display_value="Limited Sources Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">ab4ef13907b7d0103f2aff4c7c1ed0aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>374ef13907b7d0103f2aff4c7c1ed0b6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_329792_acquisiti_acquisition" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">3cfafd7507b7d0103f2aff4c7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Exception to Fair Opportunity Process" display_value="Exception to Fair Opportunity Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">ab4ef13907b7d0103f2aff4c7c1ed0ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-20 11:45:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_329792_acquisiti_acquisition</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 12:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cfafd7507b7d0103f2aff4c7c1ed01e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_329792_acquisiti_acquisition</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3cfafd7507b7d0103f2aff4c7c1ed01e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-12 12:31:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

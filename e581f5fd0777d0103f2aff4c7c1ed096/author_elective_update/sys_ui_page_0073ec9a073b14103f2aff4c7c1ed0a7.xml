@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description>HTML for Angular App</description>
+        <direct>false</direct>
+        <endpoint>x_329792_acquisiti_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com//bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"></link>
+	<script src="x_329792_acquisiti.angular_app_client_lo.jsdbx"></script>	
+<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+	<input type="text" ng-model="myVar" placeholder="Enter some text here"></input>
+	<p></p>
+	<div class="jumbotron">
+		<h1 class="display-3">Hello world!</h1>
+		<hr class="my-y-2"/>
+		<p>{{myVar}}</p>
+	</div>
+	<button ng-click="clearTxt()" type="button" class="btin btn-primary">Clear Text</button>
+
+	<br />
+	Hide: &#160; <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide" /><br />
+	<div class="check-element animate-show-hide" ng-hide="checked">
+	  I hide when your checkbox is checked.
+	</div>
+</div>
+
+</j:jelly>]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 19:28:29</sys_created_on>
+        <sys_id>0073ec9a073b14103f2aff4c7c1ed0a7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_page_0073ec9a073b14103f2aff4c7c1ed0a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-20 12:31:07</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>sys_ui_page_0073ec9a073b14103f2aff4c7c1ed0a7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;HTML for Angular App&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_329792_acquisiti_angular_app.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"&gt;&lt;/script&gt;
+&lt;link href="https://maxcdn.bootstrapcdn.com//bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"&gt;&lt;/link&gt;
+	&lt;script src="x_329792_acquisiti.angular_app_client_lo.jsdbx"&gt;&lt;/script&gt;	
+&lt;div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl"&gt;
+	&lt;input type="text" ng-model="myVar" placeholder="Enter some text here"&gt;&lt;/input&gt;
+	&lt;p&gt;&lt;/p&gt;
+	&lt;div class="jumbotron"&gt;
+		&lt;h1 class="display-3"&gt;Hello world!&lt;/h1&gt;
+		&lt;hr class="my-y-2"/&gt;
+		&lt;p&gt;{{myVar}}&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;button ng-click="clearTxt()" type="button" class="btin btn-primary"&gt;Clear Text&lt;/button&gt;
+
+	&lt;br /&gt;
+	Hide: &amp;#160; &lt;input type="checkbox" ng-model="checked" aria-label="Toggle ngHide" /&gt;&lt;br /&gt;
+	&lt;div class="check-element animate-show-hide" ng-hide="checked"&gt;
+	  I hide when your checkbox is checked.
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;angular_app&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-13 19:28:29&lt;/sys_created_on&gt;&lt;sys_id&gt;0073ec9a073b14103f2aff4c7c1ed0a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;angular_app&lt;/sys_name&gt;&lt;sys_package display_value="Acquisition" source="x_329792_acquisiti"&gt;e581f5fd0777d0103f2aff4c7c1ed096&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Acquisition"&gt;e581f5fd0777d0103f2aff4c7c1ed096&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_0073ec9a073b14103f2aff4c7c1ed0a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-20 12:31:07&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1735934120</payload_hash>
+        <record_name>angular_app</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-20 12:31:08</sys_created_on>
+        <sys_id>37874390078c60103f2aff4c7c1ed087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17545fde2f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-20 12:31:08</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>bf874390b88c6010d0e569494b386e86</update_guid>
+        <update_guid_history>bf874390b88c6010d0e569494b386e86:-1735934120,ee8bea5ccf0c60102eac5d68443efdc3:-228922891,963b6a5cfa0c601074f6b8619981e737:1730859123,96da625c960c60107f1bb615d16cb70f:562182895,336ce6f741f31010c1fdac86ab0d8f09:-1211963375,d0ae5e7fc3b31010fdc3ff0ecd957e09:2087280417,7c6b4fcba87b9010bce80c91eacccb74:1588056122,ffcaecde293b14102b30d5fff4764953:-2068420010,6dba6012be7b1410b30624a8fb7c0bad:2143207249,869aecde193b1410d267f86f8be5934f:-2068420010,384920dee13b14109f734bd8c57ff44b:758639047,c3a7ec5e4e3b14103c84ab51e9b93e24:-1677171700,3b46241e693b1410e09879fa77fe08d5:-114471924,6005e4da073b141097c1db5fd364af9b:1939526710,91f3ec9a863b1410727e906474575db4:-1422488744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-21 19:08:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>3b6a2a49d8534840910782dd760c9471</sys_id>
+        <sys_metadata>0073ec9a073b14103f2aff4c7c1ed0a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>sys_ui_page_0073ec9a073b14103f2aff4c7c1ed0a7</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_0073ec9a073b14103f2aff4c7c1ed0a7">37874390078c60103f2aff4c7c1ed087</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 19:08:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

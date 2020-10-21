@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions table="x_329792_acquisiti_acquisition">specific_vendor_or_product=Yes^EQ<item display_value="Yes" endquery="false" field="specific_vendor_or_product" goto="false" newquery="false" operator="=" or="false" value="Yes"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+alert('You do not have specific vendor or product.');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+alert('You have specific vendor or product.');
+}]]></script_true>
+        <set_values/>
+        <short_description>Specific Vendor or Porduct</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 20:01:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0bddb3907bbd0103f2aff4c7c1ed079</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Specific Vendor or Porduct</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_policy_e0bddb3907bbd0103f2aff4c7c1ed079</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 20:20:36</sys_updated_on>
+        <table>x_329792_acquisiti_acquisition</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>sys_ui_policy_e0bddb3907bbd0103f2aff4c7c1ed079</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="x_329792_acquisiti_acquisition"&gt;specific_vendor_or_product=Yes^EQ&lt;item display_value="Yes" endquery="false" field="specific_vendor_or_product" goto="false" newquery="false" operator="=" or="false" value="Yes"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+alert('You do not have specific vendor or product.');
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+alert('You have specific vendor or product.');
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Specific Vendor or Porduct&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-12 20:01:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0bddb3907bbd0103f2aff4c7c1ed079&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Specific Vendor or Porduct&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Acquisition" source="x_329792_acquisiti"&gt;e581f5fd0777d0103f2aff4c7c1ed096&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Acquisition"&gt;e581f5fd0777d0103f2aff4c7c1ed096&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_e0bddb3907bbd0103f2aff4c7c1ed079&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-12 20:20:36&lt;/sys_updated_on&gt;&lt;table&gt;x_329792_acquisiti_acquisition&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-93126701</payload_hash>
+        <record_name>Specific Vendor or Porduct</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 20:20:36</sys_created_on>
+        <sys_id>4f462bbd07bbd0103f2aff4c7c1ed05f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751e78d4ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 20:20:36</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>c7462bbd0dbbd010af936ff4173a425f</update_guid>
+        <update_guid_history>c7462bbd0dbbd010af936ff4173a425f:-93126701,d5f527bda5bbd010d644f14c0c113c40:92978184,59026bf925bbd010d1ea8779dc75c176:2105204021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 20:23:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>0b18d8b572af411b9be31320cc74fcb1</sys_id>
+        <sys_metadata>e0bddb3907bbd0103f2aff4c7c1ed079</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Specific Vendor or Porduct</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent display_value="Acquisition">0d56b9b107b7d0103f2aff4c7c1ed05e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_e0bddb3907bbd0103f2aff4c7c1ed079</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_e0bddb3907bbd0103f2aff4c7c1ed079">4f462bbd07bbd0103f2aff4c7c1ed05f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 20:23:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

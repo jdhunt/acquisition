@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_329792_acquisiti_acquisition</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Sets the IDIQ or GSA BPA? field to mandatory</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 12:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad56b9b107b7d0103f2aff4c7c1ed0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the IDIQ or GSA BPA? field to mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_data_policy2_ad56b9b107b7d0103f2aff4c7c1ed0d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 12:11:27</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>sys_data_policy2_ad56b9b107b7d0103f2aff4c7c1ed0d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_329792_acquisiti_acquisition</model_table><reverse_if_false>true</reverse_if_false><short_description>Sets the IDIQ or GSA BPA? field to mandatory</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-12 12:11:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad56b9b107b7d0103f2aff4c7c1ed0d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sets the IDIQ or GSA BPA? field to mandatory</sys_name><sys_overrides/><sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package><sys_policy/><sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope><sys_update_name>sys_data_policy2_ad56b9b107b7d0103f2aff4c7c1ed0d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-12 12:11:27</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>-1921721125</payload_hash>
+        <record_name>Sets the IDIQ or GSA BPA? field to mandatory</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 12:11:27</sys_created_on>
+        <sys_id>a156b9b107b7d0103f2aff4c7c1ed0da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751cb8fde90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 12:11:27</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>a956b9b1dbb7d010e8aec8ed57ce1dd9</update_guid>
+        <update_guid_history>a956b9b1dbb7d010e8aec8ed57ce1dd9:-1921721125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 23:33:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>48ed83f4f5bf453093ca233da2f59d90</sys_id>
+        <sys_metadata>ad56b9b107b7d0103f2aff4c7c1ed0d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the IDIQ or GSA BPA? field to mandatory</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent display_value="Acquisition">0d56b9b107b7d0103f2aff4c7c1ed05e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_ad56b9b107b7d0103f2aff4c7c1ed0d6</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_ad56b9b107b7d0103f2aff4c7c1ed0d6">a156b9b107b7d0103f2aff4c7c1ed0da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 23:33:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

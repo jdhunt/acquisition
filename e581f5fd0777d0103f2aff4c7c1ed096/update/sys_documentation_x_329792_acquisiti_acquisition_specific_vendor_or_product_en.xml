@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="specific_vendor_or_product" label="Specific Vendor or Product?" language="en" table="x_329792_acquisiti_acquisition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>specific_vendor_or_product</element>
+            <help/>
+            <hint/>
+            <label>Specific Vendor or Product?</label>
+            <language>en</language>
+            <name>x_329792_acquisiti_acquisition</name>
+            <plural>Specific Vendor or Product?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-12 17:28:41</sys_created_on>
+            <sys_id>20fe3ab1077bd0103f2aff4c7c1ed0f6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Specific Vendor or Product?</sys_name>
+            <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+            <sys_update_name>sys_documentation_x_329792_acquisiti_acquisition_specific_vendor_or_product_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-13 13:37:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

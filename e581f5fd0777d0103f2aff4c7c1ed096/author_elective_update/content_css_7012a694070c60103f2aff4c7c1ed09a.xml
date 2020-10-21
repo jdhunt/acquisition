@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css">
+    <content_css action="DELETE">
+        <name>My local style sheet</name>
+        <style/>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-20 10:11:00</sys_created_on>
+        <sys_id>7012a694070c60103f2aff4c7c1ed09a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My local style sheet</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>content_css_7012a694070c60103f2aff4c7c1ed09a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-20 10:11:00</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>content_css_7012a694070c60103f2aff4c7c1ed09a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css"><content_css action="INSERT_OR_UPDATE"><name>My local style sheet</name><style/><sys_class_name>content_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-20 10:11:00</sys_created_on><sys_id>7012a694070c60103f2aff4c7c1ed09a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My local style sheet</sys_name><sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package><sys_policy/><sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope><sys_update_name>content_css_7012a694070c60103f2aff4c7c1ed09a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-20 10:11:00</sys_updated_on><type>local</type><url/></content_css></record_update>]]></payload>
+        <payload_hash>1879559119</payload_hash>
+        <record_name>My local style sheet</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-20 10:11:00</sys_created_on>
+        <sys_id>8f776e98070c60103f2aff4c7c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175457d984b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-20 10:11:00</sys_updated_on>
+        <type>Style Sheet</type>
+        <update_guid>c7776e98db0c60109b2db6c81ea75e31</update_guid>
+        <update_guid_history>c7776e98db0c60109b2db6c81ea75e31:1879559119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My local style sheet">cbbbd87807cca0103f2aff4c7c1ed0d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-21 13:17:23</sys_created_on>
+        <sys_db_object display_value="" name="content_css">content_css</sys_db_object>
+        <sys_id>415a49f6a65147b3a953035775ca78e9</sys_id>
+        <sys_metadata>7012a694070c60103f2aff4c7c1ed09a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My local style sheet</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>content_css_7012a694070c60103f2aff4c7c1ed09a</sys_update_name>
+        <sys_update_version display_value="content_css_7012a694070c60103f2aff4c7c1ed09a">8f776e98070c60103f2aff4c7c1ed031</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 13:17:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

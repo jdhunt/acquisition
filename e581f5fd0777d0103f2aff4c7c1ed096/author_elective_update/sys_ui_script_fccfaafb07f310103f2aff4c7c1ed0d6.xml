@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description>script.js</description>
+        <global>false</global>
+        <name>x_329792_acquisiti.script.js</name>
+        <script><![CDATA[var x_329792_acquisiti = x_329792_acquisiti || {};
+
+x_329792_acquisiti.script.js = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_329792_acquisiti.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_329792_acquisiti.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "script.js"
+	};
+})();
+]]></script>
+        <script_name>script.js</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-18 21:32:06</sys_created_on>
+        <sys_id>fccfaafb07f310103f2aff4c7c1ed0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_329792_acquisiti.script.js</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_update_name>sys_ui_script_fccfaafb07f310103f2aff4c7c1ed0d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-18 21:32:06</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</application>
+        <file_path/>
+        <instance_id>b7a8a8b4dbe0fb0052dd2f17d49619f0</instance_id>
+        <instance_name>dev77790</instance_name>
+        <name>sys_ui_script_fccfaafb07f310103f2aff4c7c1ed0d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;script.js&lt;/description&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_329792_acquisiti.script.js&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_329792_acquisiti = x_329792_acquisiti || {};
+
+x_329792_acquisiti.script.js = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_329792_acquisiti.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_329792_acquisiti.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "script.js"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;script.js&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-18 21:32:06&lt;/sys_created_on&gt;&lt;sys_id&gt;fccfaafb07f310103f2aff4c7c1ed0d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_329792_acquisiti.script.js&lt;/sys_name&gt;&lt;sys_package display_value="Acquisition" source="x_329792_acquisiti"&gt;e581f5fd0777d0103f2aff4c7c1ed096&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Acquisition"&gt;e581f5fd0777d0103f2aff4c7c1ed096&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_fccfaafb07f310103f2aff4c7c1ed0d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-18 21:32:06&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>988079330</payload_hash>
+        <record_name>x_329792_acquisiti.script.js</record_name>
+        <reverted_from/>
+        <source>6d81f5fd0777d0103f2aff4c7c1ed098</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-18 21:32:06</sys_created_on>
+        <sys_id>6c30323f07f310103f2aff4c7c1ed09c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1753da072240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-18 21:32:06</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>a430323f01f310109d9b448affefd79c</update_guid>
+        <update_guid_history>a430323f01f310109d9b448affefd79c:988079330</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-21 19:09:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>6353092fdc404af1bc86340ab1a12f81</sys_id>
+        <sys_metadata>fccfaafb07f310103f2aff4c7c1ed0d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_329792_acquisiti.script.js</sys_name>
+        <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
+        <sys_scope_delete display_value="">741f548580104146ba6278cfc878c524</sys_scope_delete>
+        <sys_update_name>sys_ui_script_fccfaafb07f310103f2aff4c7c1ed0d6</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_fccfaafb07f310103f2aff4c7c1ed0d6">6c30323f07f310103f2aff4c7c1ed09c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 19:09:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
