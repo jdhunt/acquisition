@@ -60,7 +60,7 @@
 		  <option value="a3-bpa">The solution is available via a Blanket Purchase Agreement (BPA).</option>
 		</select>
 	</div>
-	<tt>counter = {{counter}}</tt>
+	<!--<tt>counter = {{counter}}</tt>-->
 	<br/>
 	<br/>
 	<div class="guidance-element animate-show-hide" ng-show="showGuidance1">
@@ -72,12 +72,19 @@
 	</div>
 	
 	<div class="guidance-element animate-show-hide" ng-show="showGuidance3">
-		The program office must initiate a &#160;<i>Limited Sources Justification</i>&#160; in accordance with FAR 8.405-6. Following are links to a policy, template and sample:
-		
-<p><a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2" title="Click Here to Download the LSJ Policy">Click Here to Download the LSJ Policy</a></p>
-<p><a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0" title="Click Here to Download the LSJ Template">Click Here to Download the LSJ Template</a></p>
-<p><a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1" title="Click Here to Download the LSJ Example">Click Here to Download the LSJ Example</a></p>
-
+		The program office must initiate a &#160;<i>Limited Sources Justification (LSJ)</i>&#160; in accordance with FAR 8.405-6. <p/>
+		Following are links to a policy, template and sample:	
+<p/>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2&amp;view=true" title="Click Here to view the LSJ Policy">Click Here to view the LSJ Policy</a></p>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2&amp;view=false" title="Click Here to download the LSJ Policy">Click Here to download the LSJ Policy</a></p>
+<p/>
+<p/>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0&amp;view=true" title="Click Here to view the LSJ Template">Click Here to view the LSJ Template</a></p>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0&amp;view=false" title="Click Here to download the LSJ Template">Click Here to download the LSJ Template</a></p>
+<p/>
+<p/>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1&amp;view=true" title="Click Here to view the LSJ Example">Click Here to view the LSJ Example</a></p>
+<p><a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1&amp;view=false" title="Click Here to download the LSJ Example">Click Here to download the LSJ Example</a></p>
 	</div>
 	
 	<div class="guidance-element animate-show-hide" ng-show="showGuidance4">
@@ -93,13 +100,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-20 12:34:56</sys_created_on>
         <sys_id>94080354078c60103f2aff4c7c1ed0ac</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>acquistion_process</sys_name>
         <sys_package display_value="Acquisition" source="x_329792_acquisiti">e581f5fd0777d0103f2aff4c7c1ed096</sys_package>
         <sys_policy/>
         <sys_scope display_value="Acquisition">e581f5fd0777d0103f2aff4c7c1ed096</sys_scope>
         <sys_update_name>sys_ui_page_94080354078c60103f2aff4c7c1ed0ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-21 18:04:27</sys_updated_on>
+        <sys_updated_on>2020-10-22 17:52:25</sys_updated_on>
     </sys_ui_page>
 </record_update>

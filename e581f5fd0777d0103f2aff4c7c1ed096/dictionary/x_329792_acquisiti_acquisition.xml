@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="use_document_viewer=false" label="Acquisition" max_length="40" name="x_329792_acquisiti_acquisition" sizeclass="1" type="collection">
+    <element attributes="use_document_viewer=true" label="Acquisition" max_length="40" name="x_329792_acquisiti_acquisition" sizeclass="1" type="collection">
         <element choice="1" label="GWAC Exists?" max_length="40" name="gwac_exists" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" value="No"/>

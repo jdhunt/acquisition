@@ -3,31 +3,36 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:17:39</sys_created_on>
-            <sys_id>8e8960340700e0103f2aff4c7c1ed0d9</sys_id>
+            <sys_created_on>2020-10-22 17:07:01</sys_created_on>
+            <sys_id>b4e91a89074020103f2aff4c7c1ed0f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:17:39</sys_updated_on>
-            <text>The program office must initiate a &lt;i&gt;Limited Sources Justification&lt;/i&gt;  in accordance with FAR 8.405-6.  Download a policy, template and sample:&#13;
-&#13;
-&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2&amp;view=true" title="Click Here to Download the LSJ Policy"&gt;Click Here to Download the LSJ Policy&lt;/a&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0&amp;view=true" title="Click Here to Download the LSJ Template"&gt;Click Here to Download the LSJ Template&lt;/a&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1&amp;view=true" title="Click Here to Download the LSJ Example"&gt;Click Here to Download the LSJ Example&lt;/a&gt;&lt;/p&gt;</text>
+            <sys_updated_on>2020-10-22 17:07:01</sys_updated_on>
+            <text>The program office must initiate a &lt;i&gt;Limited Sources Justification&lt;/i&gt;  in accordance with FAR 8.405-6.  View or download a policy, template and sample:&#13;
+&lt;p/&gt;&#13;
+&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2&amp;view=true" title="Click Here to view the LSJ Policy"&gt;Click Here to view the LSJ Policy&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=b604d9ee07fb10103f2aff4c7c1ed0b2&amp;view=false" title="Click Here to download the LSJ Policy"&gt;Click Here to download the LSJ Policy&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p/&gt;&#13;
+&lt;p/&gt;&#13;
+&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0&amp;view=true" title="Click Here to view the LSJ Template"&gt;Click Here to view the LSJ Template&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=b30659ee07fb10103f2aff4c7c1ed0e0&amp;view=false" title="Click Here to download the LSJ Template"&gt;Click Here to download the LSJ Template&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p/&gt;&#13;
+&lt;p/&gt;&#13;
+&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1&amp;view=true" title="Click Here to view the LSJ Example"&gt;Click Here to view the LSJ Example&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=3a04d9ee07fb10103f2aff4c7c1ed0b1&amp;view=false" title="Click Here to download the LSJ Example"&gt;Click Here to download the LSJ Example&lt;/a&gt;&lt;/p&gt;</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>8e8960340700e0103f2aff4c7c1ed0d9</element>
+            <element>b4e91a89074020103f2aff4c7c1ed0f4</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:17:39</sys_created_on>
-            <sys_id>868960340700e0103f2aff4c7c1ed0dc</sys_id>
+            <sys_created_on>2020-10-22 17:07:01</sys_created_on>
+            <sys_id>b8e99e0d074020103f2aff4c7c1ed0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Limited Sources Process" display_value="Limited Sources Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">ab4ef13907b7d0103f2aff4c7c1ed0aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:17:39</sys_updated_on>
+            <sys_updated_on>2020-10-22 17:07:01</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
