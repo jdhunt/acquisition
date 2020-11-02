@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>bc78ecf00700e0103f2aff4c7c1ed0e9</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>99b68f01070420103f2aff4c7c1ed0df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <text>Q3.  Is the available GWAC an Indefinite Delivery Indefinite Quantity (IDIQ) contractor or a Blanket Purchase Agreement (BPA)?</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bc78ecf00700e0103f2aff4c7c1ed0e9</element>
+            <element>99b68f01070420103f2aff4c7c1ed0df</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:57</sys_created_on>
-            <sys_id>b078ecf00700e0103f2aff4c7c1ed0ec</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>95b68f01070420103f2aff4c7c1ed0e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IDIQ or GSA BPA" display_value="IDIQ or GSA BPA" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">a1bbb6d8074c60103f2aff4c7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:57</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>idiq_or_gsa_bpa</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:57</sys_created_on>
-            <sys_id>3478ecf00700e0103f2aff4c7c1ed0ec</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>1db68f01070420103f2aff4c7c1ed0e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IDIQ or GSA BPA" display_value="IDIQ or GSA BPA" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">a1bbb6d8074c60103f2aff4c7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:57</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

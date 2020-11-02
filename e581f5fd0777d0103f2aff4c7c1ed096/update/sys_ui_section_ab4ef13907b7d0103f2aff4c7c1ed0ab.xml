@@ -3,11 +3,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:15:24</sys_created_on>
-            <sys_id>b009a4340700e0103f2aff4c7c1ed0e4</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>d1b68f01070420103f2aff4c7c1ed0fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:15:24</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <text>The program office must initiate the &lt;i&gt;Exception to Fair Opportunity&lt;/i&gt; process in accordance with FAR 16.505.  Download policy, template and sample:
 
 &lt;p&gt;&lt;a target="_blank" href="/sys_attachment.do?sys_id=d73ad23907f7d0103f2aff4c7c1ed0d9&amp;view=true" title="Click Here to Download the EFO Policy"&gt;Click Here to Download the EFO Policy&lt;/a&gt;&lt;/p&gt;
@@ -18,16 +18,16 @@
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b009a4340700e0103f2aff4c7c1ed0e4</element>
+            <element>d1b68f01070420103f2aff4c7c1ed0fb</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:15:24</sys_created_on>
-            <sys_id>f809a4340700e0103f2aff4c7c1ed0e6</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>95b68f01070420103f2aff4c7c1ed0fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exception to Fair Opportunity Process" display_value="Exception to Fair Opportunity Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">ab4ef13907b7d0103f2aff4c7c1ed0ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:15:24</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

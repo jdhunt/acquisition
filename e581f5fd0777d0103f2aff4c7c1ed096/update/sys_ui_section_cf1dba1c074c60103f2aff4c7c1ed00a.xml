@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>f878ecf00700e0103f2aff4c7c1ed0cc</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>91b68f01070420103f2aff4c7c1ed0c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <text>Question 1: Does this requirement require the award be made for a specific brand-name product or to a specific vendor?</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f878ecf00700e0103f2aff4c7c1ed0cc</element>
+            <element>91b68f01070420103f2aff4c7c1ed0c2</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>f878ecf00700e0103f2aff4c7c1ed0d0</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>ddb68f01070420103f2aff4c7c1ed0c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Specific Vendor or Product" display_value="Specific Vendor or Product" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">cf1dba1c074c60103f2aff4c7c1ed00a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>specific_vendor_or_product</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>b078ecf00700e0103f2aff4c7c1ed0d1</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>55b68f01070420103f2aff4c7c1ed0c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Specific Vendor or Product" display_value="Specific Vendor or Product" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">cf1dba1c074c60103f2aff4c7c1ed00a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

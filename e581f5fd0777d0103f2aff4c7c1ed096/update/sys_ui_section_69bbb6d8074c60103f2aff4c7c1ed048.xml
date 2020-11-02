@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>f078ecf00700e0103f2aff4c7c1ed0d6</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>d9b68f01070420103f2aff4c7c1ed0ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <text>Question 2:  Is the requirement available under an existing Government-Wide Acquisition Contract (GWAC) such as an Enterprise License Agreement (ELA), Blanket Purchase Agreement (BPA), or Indefinite Delivery Indefinite Quantity (IDIQ) contract?  Examples include GSA’s OASIS IDIQ, NASA SEWP, Army CHESS, …</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f078ecf00700e0103f2aff4c7c1ed0d6</element>
+            <element>d9b68f01070420103f2aff4c7c1ed0ca</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>f478ecf00700e0103f2aff4c7c1ed0d8</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>d5b68f01070420103f2aff4c7c1ed0cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GWAC" display_value="GWAC" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">69bbb6d8074c60103f2aff4c7c1ed048</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>gwac_exists</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:56</sys_created_on>
-            <sys_id>7878ecf00700e0103f2aff4c7c1ed0d8</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>5db68f01070420103f2aff4c7c1ed0cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GWAC" display_value="GWAC" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">69bbb6d8074c60103f2aff4c7c1ed048</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:56</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

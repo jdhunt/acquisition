@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:57</sys_created_on>
-            <sys_id>8178ecf00700e0103f2aff4c7c1ed0f0</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>15b68f01070420103f2aff4c7c1ed0e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:57</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <text>The next step is to initiate the "Competition" process</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>8178ecf00700e0103f2aff4c7c1ed0f0</element>
+            <element>15b68f01070420103f2aff4c7c1ed0e7</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-21 14:12:57</sys_created_on>
-            <sys_id>8178ecf00700e0103f2aff4c7c1ed0f2</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>19b68f01070420103f2aff4c7c1ed0e9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Competition Process" display_value="Competition Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">78fabd7507b7d0103f2aff4c7c1ed094</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-21 14:12:57</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

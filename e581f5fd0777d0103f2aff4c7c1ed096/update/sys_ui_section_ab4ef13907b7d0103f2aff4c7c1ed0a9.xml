@@ -3,11 +3,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-22 16:46:40</sys_created_on>
-            <sys_id>a235d609074020103f2aff4c7c1ed052</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>ddb68f01070420103f2aff4c7c1ed0ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-22 16:46:40</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <text>The program office must initiate the &lt;i&gt;Sole Source Justification and Approval&lt;/i&gt; process in accordance with FAR 6.302-1.  Download policy, template and sample:&#13;
 &lt;p/&gt;&#13;
 &lt;p&gt;Click Here to Download the SSJA Policy&lt;/p&gt;&#13;
@@ -18,16 +18,16 @@
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>a235d609074020103f2aff4c7c1ed052</element>
+            <element>ddb68f01070420103f2aff4c7c1ed0ed</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-22 16:46:40</sys_created_on>
-            <sys_id>ae35d609074020103f2aff4c7c1ed054</sys_id>
+            <sys_created_on>2020-10-22 20:22:51</sys_created_on>
+            <sys_id>91b68f01070420103f2aff4c7c1ed0f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sole Source J&amp;A Process" display_value="Sole Source J&amp;A Process" name="x_329792_acquisiti_acquisition" sys_domain="global" view="Default view">ab4ef13907b7d0103f2aff4c7c1ed0a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-22 16:46:40</sys_updated_on>
+            <sys_updated_on>2020-10-22 20:22:51</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
